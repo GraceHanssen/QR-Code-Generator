@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <title>Generate QR Codes</title>
+  </head>
+  <body>
+    
+      <div class="container">
+        <h1>URL QR Code Generator</h1>
+        <input type="text" name="URL" id="URL" placeholder="Enter the URL">
+        <br>
+        <button id="generate">GENERATE</button>
+        <button id="print" onclick="window.print()">PRINT</button>
+        <br>
+        <div id="qrcode">
+          <h2>SCAN THIS</h2>
+        </div>
+    </div>   
+    <script id="imagecode" src="qrcode.js"></script>
+    <script src="script.js"></script>
+    
+  </body> 
+  <footer class="developer">Developed by Grace</footer>    
+</html>

@@ -1,0 +1,48 @@
+body {
+  background-color: #999191;
+}
+
+.container {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  height: 320px;
+  width: 230px;
+}
+
+h1 {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #ffffff;
+  text-align-last: center;
+}
+
+#generate,
+#print {
+  border-width: thick;
+  margin-top: 5%;
+  padding: 3%;
+}
+
+.buttons {
+  width: 50px;
+  margin: 0 auto;
+  display: inline;
+}
+
+#qrcode {
+  border: 1px solid, black;
+  height: 350px;
+}
+
+.developer {
+  color: #ffffff;
+  padding-top: 9%;
+  text-align: center;
+}
